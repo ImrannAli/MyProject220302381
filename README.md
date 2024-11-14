@@ -53,6 +53,13 @@ Usage Examples:
  node calendar.js delete 2024 11 15 "My Task"
 
 
+Dependencies:
+
+ This project relies on the following core Node.js libraries to function correctly:
+  fs (File System): Used for reading and writing to the JSON file where calendar and task data are stored.
+  path: Used to manage file paths in a cross-platform way, ensuring compatibility across different operating systems.
+  process: Handles command-line arguments to support various functions like adding, viewing, and deleting tasks.
+
  
  
  
